@@ -1,0 +1,69 @@
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    background-color:#432371 ;
+    background-image: linear-gradient(#432371,white );
+    background-repeat: no-repeat;
+
+}
+/* design of the side menu titles */
+#aboutus{
+    margin-left: 2%;
+    text-align:left;
+    color: orange;
+    font-family: sans-serif ;
+}
+#login{
+    margin-left: 2%;
+    text-align: left;
+    color:white ;
+    font-family: sans-serif;
+
+}
+#register{
+    margin-left: 2%;
+    text-align: left;
+    color: white;
+    font-family: sans-serif;
+}
+#contactus{
+    margin-left: 2%;
+    text-align:left;
+    color: orange;
+    font-family: sans-serif ;
+}
+.center{
+      display:block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+ 
+ #creditcard{
+     padding: 5%;
+     float: right;
+ }
+ #topup{
+     float: right;
+     font-family: sans-serif;
+     color:black;
+ }
+ div{
+     text-align: center;
+     ;
+ }
+ /* design of top up teh Let's Play button whcih directs user to the slot games page*/
+ .button1{
+     width: 250px;
+     height: 50px;
+     background-color: orange;
+     border: none;
+     border-radius: 25px;
+     font-family: sans-serif;
+     color: #432371;
+     font-weight: bolder;
+
+ }
+ 
+ 
