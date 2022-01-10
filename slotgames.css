@@ -7,12 +7,12 @@ body{
 /* align the Title on the page*/
 #letsplay{
     text-align: center;
-    margin-top:10%;
-    margin-bottom: 2%;
+    margin-top:5%;
+    
 } 
 #home{
   padding-left: 10%;
-  padding-top: 20%;
+  padding-top: 5%;
   padding-bottom: 0%;
 }
 /*align the image grid on the page*/
