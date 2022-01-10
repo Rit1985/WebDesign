@@ -26,3 +26,9 @@ body{
 #callcenter{
     border-color: violet;
 }
+@media screen and (max-width: 525px){
+    body{
+        background-color:orange;
+        background-image: linear-gradient(orange, white);
+    }
+  }
