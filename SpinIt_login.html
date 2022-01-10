@@ -6,7 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="log_in.css" />
     <title>Log_In</title>
+    <script>
+       function loggedIn(){
+           alert("You are logged in")
+        }
+    </script>
 </head>
+
 <body>
     <form action ="action_page.php" method = "post" >
     <div id="userpass">
@@ -16,17 +22,21 @@
       <p><label for="password"><b>Password</b></label></p>
        <p><input type="text" placeholder="Enter Password" name="password" required></p>
     
-        <button type="submit">Log In</button>
+        <input type="button" value = "log in" onClick="alert('Clicked');"/>
+        
+        
         <p><lable>
             <input type="checkbox" checked="checked" name="remember">Remember me</lable></p>
         </div>
 
         <div class="container" style="background-color: #766292;">
            <div><a href="register.html">
+
             <button type="button" class="registerbutton">Register</button></a>
             </div>
             <span class="password">Forgot <a href="#">password?</a></span>
     </div>
     </form>
 </body>
+
 </html>
