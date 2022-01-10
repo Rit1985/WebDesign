@@ -9,6 +9,7 @@ body{
     text-align: center;
     margin-top: 10%;
     margin-bottom: 90%;
+    display: block;
 }
 /*align the image grid on the page*/
 .row{
@@ -46,6 +47,11 @@ text-decoration: none;
     background-color: honeydew;
     box-shadow: 0 0 3px honeydew;
   }
+}
+.center{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .button{
   animation:glowing 1300ms infinite;
