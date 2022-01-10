@@ -4,6 +4,7 @@ body{
     background-color:orange;
     background-image: linear-gradient(orange,white);
     background-repeat: no-repeat;
+    margin-bottom: 20px;
 }
 
 #title{
