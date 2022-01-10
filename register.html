@@ -7,6 +7,11 @@
     <!--link the css sheet to the html file-->
     <link rel="stylesheet" href="register.css" />
     <title>Register</title>
+    <script>
+        function register(){
+            alert("You are now Registered")
+         }
+     </script>
 </head>
 <body>
     <!--creating the form -->
@@ -26,8 +31,9 @@
            
            <p><label for="number"><b>Contact Number</b></label></p>
            <p><input type="text" placeholder="Enter Contact Number" name="number" required></p>
+
+           <input type="button" value = "register" onClick="alert('You are now registered');"/>
            
-           <button type="submit">Register</button>
         </div>
         </form>
 </body>
