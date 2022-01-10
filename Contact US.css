@@ -27,7 +27,13 @@ body{
     border-color: violet;
 }
 @media only screen and (max-width: 600px){
-        background-color:orange;
+    body{  background-color:orange;
         background-image: linear-gradient(orange, white);
+    }
+    #contactus{
+        font-family: sans-serif;
+        color: #432371;
+        text-align: center;
+    }
     }
   
