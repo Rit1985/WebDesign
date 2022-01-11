@@ -2,14 +2,14 @@ body{
     height: 100%;
     width: 100%;
     margin: 0%;
-    padding: 10%;
+    padding: 0%;
     background-image: linear-gradient(#432371,white );
     background-repeat: no-repeat;
 
 }
 /* design of the side menu titles */
 #aboutus{
-    margin-left: 2%;
+    margin-left: 5%;
     text-align:left;
     color: orange;
     font-family: sans-serif ;
@@ -44,12 +44,7 @@ body{
      padding: 5%;
      float: right;
  }
- #topup{
-     margin-right:5%;
-     float: right;
-     font-family: sans-serif;
-     color:black;
- }
+ 
  div{
      text-align: center;
      ;
