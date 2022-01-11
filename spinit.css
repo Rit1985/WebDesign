@@ -16,20 +16,20 @@ body{
 }
 #login{
     margin-top: 5%;
-    margin-left: 10%;
+    margin-left: 5%;
     text-align: left;
     color:white ;
     font-family: sans-serif;
 
 }
 #register{
-    margin-left: 2%;
+    margin-left: 5%;
     text-align: left;
     color: white;
     font-family: sans-serif;
 }
 #contactus{
-    margin-left: 2%;
+    margin-left: 5%;
     text-align:left;
     color: orange;
     font-family: sans-serif ;
