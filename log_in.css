@@ -45,13 +45,16 @@ form{
 }
 @media screen and (max-width: 525px){
     body{
-        margin-top:40%;
+        margin-top:10%;
         background-image: linear-gradient(#432371, white);
+    }
+    #home{
+        float:left
     }
   }
   @media only screen and (max-device-width : 780px){ 
     body{
-    margin-top: 40%;
+    margin-top: 10%;
     background-image: linear-gradient(#432371, white);
     
  } 
