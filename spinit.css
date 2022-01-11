@@ -3,7 +3,6 @@ body{
     width: 100%;
     margin: 0%;
     padding: 0%;
-    background-color:#432371 ;
     background-image: linear-gradient(#432371,white );
     background-repeat: no-repeat;
 
@@ -16,7 +15,8 @@ body{
     font-family: sans-serif ;
 }
 #login{
-    margin-left: 2%;
+    margin-top: 5%;
+    margin-left: 10%;
     text-align: left;
     color:white ;
     font-family: sans-serif;
@@ -45,6 +45,7 @@ body{
      float: right;
  }
  #topup{
+     margin-right: 10%;
      float: right;
      font-family: sans-serif;
      color:black;
@@ -67,7 +68,6 @@ body{
  }
  @media screen and (max-width: 525px){
     body{
-        background-color:#432371;
         background-image: linear-gradient(#432371, white);
     }
   }
