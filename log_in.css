@@ -1,6 +1,4 @@
 body{
-    
-    margin-top: 20%;
     padding: 0%;
    background-color: #432371;
    background-image: linear-gradient(#432371, white);
@@ -9,8 +7,8 @@ form{
     border:none;
 }
 #home{
-    float:left;
-    margin-top: 5%;
+    clear: both;
+    
 }
  #userpass{
     text-align: center;
@@ -21,7 +19,7 @@ form{
     font-size: 7mm;
  }
 #login{
-    float:right;
+    clear: both;
     margin-top: 5%;
     background-color: orange;
     background-image: linear-gradient(orange, white );
