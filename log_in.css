@@ -20,10 +20,9 @@ form{
     color:orange;
     font-family: sans-serif;
     font-size: 7mm;
-}
-
-.center{
-    text-align: center;
+ }
+#login{
+    float:right;
     margin-top: 5%;
     background-color: orange;
     background-image: linear-gradient(orange, white );
