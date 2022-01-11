@@ -20,8 +20,9 @@ form{
     font-family: sans-serif;
     font-size: 7mm;
 }
-/*
-.button{
+
+#login{
+    text-align: center;
     margin-top: 5%;
     background-color: orange;
     background-image: linear-gradient(orange, white );
@@ -33,7 +34,7 @@ form{
     height: 50px;
     font-weight: 900;
 }
-*/
+
 .registerbutton{
     text-align: center;
     width:auto;
