@@ -2,7 +2,7 @@ body{
     height: 100%;
     width: 100%;
     margin: 0%;
-    padding: 0%;
+    padding: 10%;
     background-image: linear-gradient(#432371,white );
     background-repeat: no-repeat;
 
@@ -74,7 +74,6 @@ body{
   @media only screen 
   and (min-device-width : 768px) 
   and (max-device-width : 1024px)  {
- #spinit{
+ 
  
  } 
-}
