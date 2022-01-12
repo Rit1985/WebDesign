@@ -6,10 +6,13 @@ body{
 }
 /* align the Title on the page*/
 #letsplay{
-    text-align: center;
+   clear:left;
+    text-align: center ;
+    margin-top: 2%;
 }
  #home{
    float: left;
+   
  }  
     
 /*align the image grid on the page*/
