@@ -45,7 +45,7 @@ body{
         text-align: center;
     }
     #home{
-        padding-inline-start: 10px;
+        padding-right: 10px;
     }
   
   @media only screen and (max-device-width : 780px){ 
