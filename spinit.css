@@ -40,6 +40,8 @@ body{
   }
  #card{
      float:right;
+     padding-right: 2%;
+     color: orange;
 
  }
  
