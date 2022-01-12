@@ -18,6 +18,9 @@ body{
     font-size: 5mm;
     text-align: center;
 }
+#home{
+    float: left;
+}
 .center{
     display: block;
     margin-left: auto;
