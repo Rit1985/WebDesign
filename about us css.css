@@ -31,9 +31,11 @@ body{
     }
     #info{
         padding-left: 2%;
+        text-align: center;
     }
     #aboutus{
         padding-left: 2%;
+        text-align: center;
     }
   }
   @media only screen and (max-device-width : 780px){ 
