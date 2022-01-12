@@ -16,6 +16,10 @@ body{
         font-family: sans-serif;
         font-size: 7mm;
 }
+#home{
+    float: left;
+
+}
 button{
     margin-top: 5%;
     background-color: #432371;
