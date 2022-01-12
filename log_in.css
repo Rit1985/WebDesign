@@ -14,7 +14,6 @@ form{
 }
  #userpass{
     text-align: center;
-    margin-top: 15%;
     margin: 5% ;
     color:orange;
     font-family: sans-serif;
@@ -22,7 +21,7 @@ form{
  }
 #login{
     clear: both;
-    margin-top: 5%;
+    margin-top: 10%;
     background-color: orange;
     background-image: linear-gradient(orange, white );
     font-family: sans-serif;
