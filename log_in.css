@@ -2,7 +2,7 @@ body{
     border-top: 2%;
     margin-top: 5%;
     padding: 5%;
-   
+    width:97%;
    background-image: linear-gradient(#432371, white);
 }
 form{
