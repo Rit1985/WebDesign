@@ -51,6 +51,7 @@ body{
     #home{
         padding-right: 10px;
     }
+}
   /* website responsiveness to mobile and ipad size devices*/
   @media only screen and (max-device-width : 780px){ 
     body{
@@ -59,5 +60,4 @@ body{
     
  } 
   
-}
 }
