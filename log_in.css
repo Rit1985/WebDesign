@@ -1,3 +1,4 @@
+/* background design, choosing the company colours and adding a linear gradent*/
 body{
     border-top: 2%;
     margin-top: 5%;
@@ -5,12 +6,14 @@ body{
     width:97%;
    background-image: linear-gradient(#432371, white);
 }
+/* the log in form design and layout to the left hand side of the screen*/
 form{
     clear:left;
     text-align: center ;
     margin-top: 2%;
     border:none;
 }
+/* logo positioning to the left*/ 
 #home{
     float:left;
     
@@ -22,22 +25,7 @@ form{
     font-family: sans-serif;
     font-size: 7mm;
  }
- /*
-#login{
-    clear: both;
-    margin-top: 10%;
-    background-color: orange;
-    background-image: linear-gradient(orange, white );
-    font-family: sans-serif;
-    color:#432371;
-    border-radius: 20px;
-    cursor: pointer;
-    width: 200px;
-    height: 50px;
-    font-weight: 900;
-    */
-
-
+/* registration button design*/
 .registerbutton{
     text-align: center;
     width:auto;
@@ -46,6 +34,8 @@ form{
     background-color: orange;
     border: none;
 }
+/* website responsiveness to mobile and ipad size devices*/
+
 @media screen and (max-width: 525px){
     body{
         

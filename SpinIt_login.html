@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="log_in.css" />
     <title>Log_In</title>
     <script>
+    /* java script for alert box, pops up after the user click the log in button*/
        function loggedIn(){
            alert("You are logged in")
         }
@@ -14,7 +15,7 @@
 </head>
 
 <body>
-    
+    <!--logo linked to home page to redirect user */-->
     <div id="home">
         <a href="index.html">
             <img src ="logo.png" style ="height:100px; width:100px;">
@@ -23,28 +24,33 @@
  
     <form action ="/action_page.php" method = "post" >
     <div id="userpass">
-
+        
+       <!-- place holder for username --> 
       <p><label for="username"><b>Username</b></label></p>
      <p><input type="text" placeholder="Enter Username" name="username" required></p>
-	
+	 <!-- place holder for password-->
       <p><label for="password"><b>Password</b></label></p>
        <p><input type="text" placeholder="Enter Password" name="password" required></p>
     </div>
     </form>
+       <!--log in button, upon clicked fires the event for the pop up window "you are logged in"-->
         <div id="login">
         <input type="button" value = "log in" onClick="alert('You are logged in');" class="center"/>
         
         </div>
     
         <p><lable>
+            <!--option if the user wants the password to be remembered for the next log in attempt-->
             <input type="checkbox" checked="checked" name="remember">Remember me</lable></p>
         
 
         <div class="container">
            <div><a href="register.html">
 
+            <!-- REGISTER  button will redirect user to the registration page if they are not registered-->
             <button type="button" class="registerbutton">Register</button></a>
             </div>
+            <!--link to password reset-->
             <span class="password">Forgot <a href="#">password?</a></span>
     </div>
     

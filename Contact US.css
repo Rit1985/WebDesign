@@ -4,7 +4,7 @@ body{
     background-color:orange;
     background-image: linear-gradient(orange,white);
 }
-/* choosing the font size and type for the data and aligning the info on teh page*/
+/* choosing the font size and type for the data and aligning the info on the page*/
 #contactus{
     font-family: sans-serif;
     width: 97%;

@@ -1,3 +1,4 @@
+/* background colour with gradient*/
 body{
     width:97%;
     margin: 0%;
@@ -38,21 +39,16 @@ body{
       margin-left: auto;
       margin-right: auto;
   }
+  /* image od credit card so whe clicked it directs users to paypal*/
  #card{
      float:right;
      padding-right: 2%;
-     
-     
-
  }
- 
- 
- 
+ /* align logo in the center of the*/
  div{
      text-align: center;
-     ;
  }
- /* design of top up teh Let's Play button whcih directs user to the slot games page*/
+ /* design of the 'Let's Play' button whcih directs user to the slot games page*/
  .button1{
      width: 250px;
      height: 50px;
@@ -62,7 +58,7 @@ body{
      font-family: sans-serif;
      color: #432371;
      font-weight: bolder;
-
+/* website responsiveness to mobile and ipad size devices*/
  }
  @media screen and (max-width: 525px){
     body{

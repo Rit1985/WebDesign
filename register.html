@@ -8,18 +8,21 @@
     <link rel="stylesheet" href="register.css" />
     <title>Register</title>
     <script>
+       /* java script for alert box, pops up after the user click the Register button*/ 
         function register(){
             alert("You are now Registered")
          }
      </script>
 </head>
 <body>
+    
+    <!--logo linked to home page to redirect user */-->
     <div id="home">
         <a href="index.html">
             <img src ="logo.png" style ="height:100px; width:100px;">
         </a>
         </div>
-    <!--creating the form -->
+    <!--creating the form  with required fields-->
     <form action ="action_page.php" method = "post" >
         <div id="title">
            <p><label for="name"><b>Name</b></label></p>
@@ -37,6 +40,7 @@
            <p><label for="number"><b>Contact Number</b></label></p>
            <p><input type="text" placeholder="Enter Contact Number" name="number" required></p>
 
+            <!--Register button, upon clicked fires the event for the pop up window "you are now registered"-->
            <input type="button" value = "Register" onClick="alert('You are now registered');"/>
            
         </div>

@@ -61,6 +61,7 @@ text-decoration: none;
 .button{
   animation:glowing 1300ms infinite;
 }
+/* website responsiveness to mobile and ipad size devices*/
 @media screen and (max-width: 525px){
   body{
       background-color:#432371;
