@@ -41,7 +41,8 @@ body{
   @media only screen and (max-device-width : 780px){ 
     body{
     margin-block: 0%;
-    background-image: linear-gradient(orange), white);
+    background-image: linear-gradient(orange, white);
     
  } 
   
+  }
