@@ -9,6 +9,7 @@ body{
 }
 
 #title{
+        clear:left;
         text-align: left;
         margin-top: 15%;
         margin: 5% ;
