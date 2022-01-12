@@ -73,7 +73,7 @@ body{
   @media only screen and (min_device-width :768px) and (max-device-width : 1024px){ 
     body{
     margin-block: 0%;
-    background-image: linear-gradient(#432371, white);
+    background-color: #432371;
     
  } 
   }
